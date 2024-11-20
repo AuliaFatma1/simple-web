@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  width: 100vw;
+  text-align: center;
+}
+
+#header {
+  height: 15vh;
+  background-color: white;
+  font-size: 2em;
+}
+
+#tagline td {
+  height: 10vh;
+  align-content: start;
+}
+
+#navbar {
+  height: 4vh;
+  background-color: #181818;
+  color: white;
+}
+
+#navbar td {
+  width: 20%;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#main {
+  height: 50vh;
+  padding-top: 10px;
+}
+
+#main td {
+  align-content: start;
+  padding-top: 10vh;
+}
+
+#footer {
+  height: 5vh;
+  background-color: #181818;
+  color: gainsboro;
+}
+
+#navbar td:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+.foto {
+  background-color: #181818;
+  width: 150px;
+  height: 150px;
+  margin: 5vh 5vw;
+  box-shadow: 3px 3px 5px gray;
+}
+
+#kontak td {
+  width: 50%;
+}
+
+#teks-profil {
+  text-align: left;
+}
+
+#teks-profil p {
+  margin-left: 1vw;
+}
+
+#foto-profil img {
+  width: 115px;
+  height: 150px;
+  margin-right: 1vw;
+}
+
+#foto-profil {
+  text-align: right;
+}
